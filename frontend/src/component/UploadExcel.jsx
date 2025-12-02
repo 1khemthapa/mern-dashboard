@@ -27,6 +27,7 @@ const UploadExcel =({setExcelData}) => {
     fetchData()
     setFile(null);
       e.target.reset();
+      alert('File uploaded')
 
   } catch (err) {
     console.error(err);

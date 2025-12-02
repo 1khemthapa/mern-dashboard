@@ -72,7 +72,7 @@ const handleAddSave = async () => {
   return (
     <div className="w-full max-w-6xl m-5">
       
-      <p className="mb-3 text-lg font-medium"> All appointment</p>
+      <p className="mb-3 text-2xl font-bold p-5 bg-gray-100 text-center rounded-md"> All Products List</p>
       <div className="bg-white shadow rounded text-sm max-h-[80vh] min-h-[50vh] overflow-y-scroll">
         <div className="grid grid-cols-6 font-semibold py-3 px-6 border-b">
           

@@ -13,7 +13,7 @@ const Pdata={
     labels:data.map((data)=>data.Category),
     datasets:[
         {
-            label:'Dataset 2',
+            label:'Revenue',
             data:data.map((data)=>data.Revenue),
             backgroundColor:[
           'rgba(255,99,132,0.5)',
